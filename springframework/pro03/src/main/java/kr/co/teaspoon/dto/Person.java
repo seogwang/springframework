@@ -7,7 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Sample {
+public class Person {
     private int no;
     private String name;
 }

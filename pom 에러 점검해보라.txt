@@ -1,17 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>kr.co.teaspoon</groupId>
   <artifactId>pro03</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>pro03 Maven Webapp</name>
+  <name>pro3 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
     <java-version>17</java-version>
     <org.springframework-version>5.3.20</org.springframework-version>
     <org.aspectj-version>1.9.0</org.aspectj-version>
     <org.slf4j-version>2.0.0</org.slf4j-version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
   </properties>
   <dependencies>
     <dependency>
@@ -295,7 +297,7 @@
       <version>2.3.0</version>
     </dependency>
 
-  </dependencies>
+  </dependencies>init
   <build>
     <finalName>pro03</finalName>
     <plugins>

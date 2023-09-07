@@ -7,7 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Sample {
-    private int no;
-    private String name;
+public class People {
+    private String id;
+    private String pw;
 }
